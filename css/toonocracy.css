@@ -1,0 +1,156 @@
+body {
+    background-color:black;
+}
+
+#content {
+    width: 825px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    height: 75px;
+    width: 825px;
+    background-image: url('/image/header.png');
+    position: relative;
+    z-index: 0;
+}
+
+#social {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 4px;
+    margin-right: 16px;
+}
+
+.velem {
+    margin-top: 12px;
+}
+
+.box {
+    width: 546;
+    height: 90;
+    display: block;
+}
+
+#animeme-banner {
+    background-image: url('/image/banner_animeme_normal.png');
+}
+
+#animeme-banner:hover {
+    background-image: url('/image/banner_animeme_mouse_over.png');
+}
+
+#toonocracy-banner {
+    background-image: url('/image/banner_toon_normal.png');
+}
+
+#toonocracy-banner:hover {
+    background-image: url('/image/banner_toon_mouse_over.png');
+}
+
+#yomama-banner {
+    background-image: url('/image/banner_yo_mama_normal.png');
+}
+
+#yomama-banner:hover {
+    background-image: url('/image/banner_yo_mama_mouse_over.png');
+}
+
+#footer {
+    position: relative;
+}
+
+#about-box {
+    position: absolute;
+    width: 267px;
+    height: 372px;
+    right: 0px;
+    top: 0px;
+    background-image: url('/image/about_box_text.png');
+}
+
+#about-text {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 45px;
+    font-family: 'Strait', sans-serif;
+    font-size: large;
+    line-height: 120%;
+    color: white;
+}
+
+#contact-box {
+    background-image: url('/image/contact_box_text.png');
+}
+
+.contact-email {
+    font-family: 'Strait', sans-serif;
+    font-size: 85%;
+    display: block;
+    text-decoration: none;
+    margin-top: 4px;
+    color: white;
+}
+
+.contact-email:hover {
+    color: #a0a8d0;
+}
+
+#email-wrapper {
+    padding-top: 40px;
+    margin-left: 16px;
+}
+
+.social-icon {
+    width: 21px;
+    height: 20px;
+    margin-left: 11px;
+    display: inline-block;
+}
+
+#facebook {
+    background-image: url('/image/FB_icon_normal.png');
+}
+
+#facebook:hover {
+    background-image: url('/image/FB_icon_mouse_over.png');
+}
+
+#twitter {
+    background-image: url('/image/twitter_icon_normal.png');
+}
+
+#twitter:hover {
+    background-image: url('/image/twitter_icon_mouse_over.png');
+}
+
+#gplus {
+    background-image: url('/image/google_plus_icon_normal.png');
+}
+
+#gplus:hover {
+    background-image: url('/image/google_plus_icon_mouse_over.png');
+}
+
+#tumblr {
+    background-image: url('/image/tumblr_icon_normal.png');
+}
+
+#tumblr:hover {
+    background-image: url('/image/tumblr_icon_mouse_over.png');
+}
+
+body:after{
+    display:none;
+    content:
+        url('/image/banner_animeme_mouse_over.png')
+        url('/image/banner_toon_mouse_over.png')
+        url('/image/banner_yo_mama_mouse_over.png')
+        url('/image/FB_icon_mouse_over.png')
+        url('/image/twitter_icon_mouse_over.png')
+        url('/image/google_plus_icon_mouse_over.png')
+        url('/image/tumblr_icon_mouse_over.png');
+}
